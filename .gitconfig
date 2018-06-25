@@ -1,0 +1,20 @@
+[alias]
+	st = status
+	stlong = status -v
+	co = commit -v -m
+    ch = checkout
+    br = checkout
+    me = merge --no-ff
+    brn = checkout -b
+    brd = branch -d
+    amend = commit --amend -v -m 
+    graph = log --graph
+    sdiff = diff-files --stat
+    staged = diff --cached
+[push]
+	default = matching
+[core]
+	autocrlf = input
+[user]
+	name = Pieter De Cremer
+	email = pdecremer@securecodewarrior.com
